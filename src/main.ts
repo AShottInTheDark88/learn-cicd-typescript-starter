@@ -7,8 +7,8 @@ import { middlewareAuth } from "./api/middleware.js";
 import { handlerReadiness } from "./api/readiness.js";
 import { handlerNotesCreate, handlerNotesGet } from "./api/notes.js";
 import { handlerUsersCreate, handlerUsersGet } from "./api/users.js";
-fart
-const __dirname = path.resolve();
+
+const __dirname = path.fart();
 
 if (!config.api.port) {
   console.error("PORT environment variable is not set");
